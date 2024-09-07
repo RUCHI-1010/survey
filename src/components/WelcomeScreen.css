@@ -1,0 +1,32 @@
+.welcome-container{
+  height: 500px;
+  width: 80%;
+  background-color: chartreuse;
+  margin-left: 10%;
+}
+
+.welcome-screen{
+  margin-left: 18.5%;
+  position: relative;
+  margin-top: 7%;
+}
+.tittle{
+  font-size: 5rem;
+  margin-top: 10%;
+  position: absolute;
+  color: rgb(10, 73, 20);
+}
+
+.btn{
+  margin-left: 24%;
+  margin-top: 25%;
+  height: 90px;
+  width: 250px;
+  background-color: chocolate;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  border: 2px solid brown;
+  font-size: 2.5rem;
+}

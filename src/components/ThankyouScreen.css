@@ -1,0 +1,14 @@
+.Thankyou-container{
+  height: 500px;
+  width: 80%;
+  background-color: rgba(211, 101, 195, 0.956);
+  margin-left: 10%;
+  margin-top: 7%;
+}
+.Thankyou-tittle{
+  margin-left: 18.5%;
+  position: relative;
+  padding: 9%;
+  font-size: 5rem;
+  color:rgb(76, 12, 63)
+}

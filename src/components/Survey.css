@@ -1,0 +1,75 @@
+.questions-container{
+  height: 500px;
+  width: 80%;
+  background-color: darkolivegreen;
+  color: white;
+  margin-left: 10%;
+  margin-top: 7%;
+}
+
+.questions-tittle{
+  margin-left: 10%;
+  padding-top: 3.5%;
+  font-size: 3rem;
+}
+
+.questions{
+  font-size: 2.5rem;
+  margin-left: 10%;
+}
+.input{
+  margin-left: 10%;
+  height: 7%;
+  width: 60%;
+  border-radius: 1rem;
+  border: 2px solid rgb(5, 80, 36);
+  font-size: 20px;
+padding: 15px;
+}
+
+.prev-btn{
+  margin-left: 10%;
+  margin-top: 4%;
+  color: rgb(65, 38, 6);
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(141, 92, 18);
+  height: 50px;
+  width: 10%;
+  background-color: rgb(220, 175, 98);
+}
+.skip-btn{
+  margin-left: 1%;
+  margin-top: 4%;
+  color: rgba(68, 59, 7, 0.851);
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(125, 120, 15);
+  height: 50px;
+  width: 10%;
+  background-color: rgb(171, 173, 70);
+}
+.next-btn{
+  margin-left: 1%;
+  margin-top: 4%;
+  color: rgb(155, 31, 112);
+  font-size: 1.3rem;
+  border-radius: 10px;
+  border: 1px solid rgb(180, 74, 151);
+  height: 50px;
+  width: 10%;
+  background-color: rgb(236, 159, 225);
+}
+
+.submit-btn{
+  margin-left: 10%;
+
+  margin-top: 2.5%;
+  color: rgb(11, 117, 104);
+  font-size: 1.2rem;
+  border-radius: 10px;
+  border: 1px solid rgb(49, 216, 211);
+  height: 30px;
+  width: 15%;
+  background-color: rgb(128, 228, 228);
+}

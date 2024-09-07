@@ -1,25 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import Survey from "./components/Survey";
+import WelcomeScreen from "./components/WelcomeScreen";
+import ThankYouScreen from "./components/ThankYouScreen";
 
-function App() {
+const App = () => {
+  const [isStarted, setIsStarted] = useState(false);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const handleStart = () => {
+    setIsStarted(true);
+  };
+
+  const handleSubmit = () => {
+    setIsSubmitted(true);
+    setTimeout(() => {
+      setIsSubmitted(false);
+      setIsStarted(false);
+    }, 5000);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app-container">
+      {!isStarted && !isSubmitted && <WelcomeScreen onStart={handleStart} />}
+      {isStarted && !isSubmitted && <Survey onSubmit={handleSubmit} />}
+      {isSubmitted && <ThankYouScreen />}
     </div>
   );
-}
+};
 
 export default App;
